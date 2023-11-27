@@ -8,13 +8,13 @@ ___
 - ### ***GitHub:*** [AleksFominova](ссылка на гитгаб)
 ___
 ## Education
-Samarkand University of Foreign languages<br> Years:2008-2012 Faculty of Romance-Germanic Philology
+Samarkand University of Foreign languages<br> Years: 2008-2012<br> Faculty of Romance-Germanic Philology
 
 ## Additional education
 [Tel-Ran](https://tel-ran.de/)  Started course as a QA Engineer
 ___
 ## Skills
-- ### Basic knowledge in HTML, CSS, Java, Java Script
+- ### Basic knowledge in HTML, CSS, Java, JavaScript
 - ### Test cases and bug tracking
 - ### Basic knowledge in Selenium
 - ### Unit tests
