@@ -38,7 +38,7 @@ I have little experience in Frontend development that I've got while studieng at
 - ### English-Upper Intermediate. Continue learning at the New York Library as ESL
 
 ## Code example:
-``` javascript
+``` 
 @Step("Cart is empty")
 
 public boolean cartIsEmpty(){  
