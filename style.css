@@ -1,11 +1,12 @@
 
-    @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Oswald:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,700&family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Oswald:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,700&family=Ubuntu:wght@300&display=swap");
 
 body{
 font-family: 'Ubuntu', sans-serif;
 margin: 0;
 padding: 0;
 font-family: "Open Sans", sans-serif;
+background-color: rgb(99, 81, 59);
 
 
 }
@@ -15,31 +16,24 @@ box-sizing: border-box;
 .wrapper{
     display: grid;
     width: 1100px;
-    aspect-ratio: 3 / 2;
     flex-wrap: wrap;
     posit: -340px;
     left: 400px;
     right: 1000px;
     bottom: 50px;
     margin-left: 400px;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 10px;
-      grid-template-areas:
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-template-areas:
         "header header"
         "aside main-info"
         "footer footer";
+        text-align: justify;
+       background-color: rgb(233, 233, 224);
         
 }
 header{
 display: block;
-}
-
-.header__photo {
-width: 340px;
-height: 340px;
-background-image: url(//images03.nicepage.io/a1389d7…/5781228…/pexels-barbara-ribeiro-5517281.jpg?version=);
-background-position: 50% 50%;
-margin: 0 auto 0 110px
 }
 
 .header-container{
@@ -48,7 +42,7 @@ left: 400px;
 right: 1000px;
 height: 250px;
 display: flex;
-flex-direction: column;
+flex-direction: row;
 justify-content: center;
 background-color: #d6cdc1;
 text-align: center;
@@ -56,16 +50,18 @@ position: relative;
 color: black;
 }
 .header-photo{
-    width: 340px;
-    height: 340px;
+   
     border-radius: 50%;
     border-style: none;
+    background-position: 50% 50%;
+    margin: 0 auto 0 110px
     
 }
  .header-title{
     font-size: 50px;
     text-align: center;
-    margin-top: 0;
+    margin-top: 40px;
+    margin-right: 40px;
     margin-bottom: 0.5rem;
     line-height: 1.2;
     font-weight: 500;
@@ -82,11 +78,35 @@ color: black;
     position: relative;
     flex: 1;
     max-width: 100%;
+    margin-right: 40px;
+    
+}
+.footer-container{
+display: flex;
+flex-direction: row;
+justify-content: center;
+background-color: #d6cdc1;
+width: 1100px;
+margin-left: 400px;
+gap: 50px;
 
 }
-.footer{
-    display: flex;
-    flex-direction: column;
-    position: relative;
+.contacts{
+    font-size: 20px;
+    list-style: none;
+
 }
+.contacts li img {
+    vertical-align: middle;
+    
+}
+.code-example{
+    background-color: rgb(189, 193, 176);
+    font-size: 18px;
+   
+}
+.left-info{
+    margin-left: 40px;
+}
+
  
