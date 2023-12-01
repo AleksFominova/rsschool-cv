@@ -47,10 +47,13 @@ color: black;
 }
 .header-photo{
    margin: 0 auto 0 110px;
-}
+   
+   }
 .header img{
     border-radius: 50%;
+    
     }
+
  .header-title{
     font-size: 50px;
     text-align: center;
