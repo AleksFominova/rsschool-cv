@@ -1,0 +1,66 @@
+## [rsschool-cv]()
+
+# Aleksandra Fominova
+## Contacts:
+- ### ***Phone:*** [+19298885086]()
+- ### ***E-mail:*** [sashulyafominova@gmail.com]()
+- ### ***Telegram:*** [@aleks_fominova]()
+- ### ***GitHub:*** [AleksFominova](https://github.com/AleksFominova)
+
+## Education
+Samarkand University of Foreign languages<br> Years: 2008-2012<br> Faculty of Romance-Germanic Philology
+
+## Additional education
+[Tel-Ran](https://tel-ran.de/)  Started course as a QA Engineer
+
+## Skills
+- ### Basic knowledge in HTML, CSS, Java, JavaScript
+- ### Test cases and bug tracking
+- ### Basic knowledge in Selenium
+- ### Unit tests
+- ### Testing UI
+- ### Testing API. Postman, SOAP
+
+## Summary
+I'm currently learning Test Automation and Frontend Developing as the secondary education. I'm interested in understanding how the outer shell of all sites and applications is structured, so in this case Frontend provides an opportunity for creativity and development
+
+
+## My strengths
+Learning ability helps to look for answers to a variety of questions, and perseverance and discipline help to bring projects to fruition, taking into account all the features
+
+
+## Experience
+I have little experience in Frontend development that I've got while studieng at other course
+
+
+## Languages:
+- ### Russian-native
+- ### English-Upper Intermediate. Continue learning at the New York Library as ESL
+
+## Code example:
+``` 
+@Step("Cart is empty")
+
+public boolean cartIsEmpty(){  
+
+boolean empty = false; 
+
+try { productCards.get(0).isDisplayed();  
+
+WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(1)); 
+
+wait.until(ExpectedConditions.visibilityOf(productCards.get(0))); 
+}
+
+catch (Exception e) { 
+
+empty = true; 
+}
+
+return empty; 
+}
+```
+
+
+## Projects:
+[My Frontend projects](https://github.com/AleksFominova/Projects)
